@@ -87,7 +87,7 @@ function photoApp() {
 }
 
 function getNames(callback) {
-    $.getJSON(baseUrl + '/query/getPhoto?fields=[sources.data.tags.data.name:1]',{}, function(namesObjects) {
+    $.getJSON(baseUrl + '/query/getPhoto?fields=[sources.data.tags.data.name:1]',{limit:10000}, function(namesObjects) {
         var namesHash = {};
         for(var i in namesObjects) {
             if(namesObjects[i].sources && namesObjects[i].sources[0] && namesObjects[i].sources[0].data && namesObjects[i].sources[0].data.tags) {
