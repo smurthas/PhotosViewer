@@ -1,6 +1,5 @@
 {
     "name": "masonrytogether",
-    "description": "Like Masonry Photos, but choose a friend and see photos of you together!",
     "version": "0.0.4",
     "author": {
         "name":"Simon Murtha-Smith"
@@ -11,6 +10,7 @@
     }],
     "repository":{
         "title": "Masonry Together",
+        "description": "Like Masonry Photos, but choose a friend and see photos of you together!",
         "type": "app",
         "static":"true",
         "uses": {
