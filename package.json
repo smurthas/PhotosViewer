@@ -1,0 +1,30 @@
+{
+    "name": "masonrytogether",
+    "description": "Like Masonry Photos, but choose a friend and see photos of you together!",
+    "version": "0.0.1",
+    "author": {
+        "name":"Simon Murtha-Smith"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://creativecommons.org/licenses/MIT/"
+    }],
+    "viewer":"photos",
+    "repository":{
+        "title": "InstaLinks",
+        "type": "app",
+        "static":"true",
+        "uses": {
+            "types": [
+                "photos"
+            ],
+            "services": [
+                "facebook",
+                "twitter",
+                "instagram",
+                "flickr",
+                "foursquare"
+            ]
+        }
+    }
+}
